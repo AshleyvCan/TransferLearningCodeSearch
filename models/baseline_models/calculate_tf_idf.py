@@ -105,7 +105,7 @@ def extract_relevant_data(working_dir, setting):
     return code_data
 
 if __name__ == '__main__':
-    parser = argparse.ArgumnetParser()
+    parser = argparse.ArgumentParser()
     parser.add_argument('--exper_setting', type = str, default = 'csn')
     settings = parser.parse_args()
     working_dir = os.getcwd()
