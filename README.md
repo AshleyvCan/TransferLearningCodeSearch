@@ -32,7 +32,7 @@ After the datasets are retrieved, they must be added to the folder:
 -	and the associated ‘ref.txt’ and ‘dev.txt’ in data/stackoverflow/python/dev
 
 ## CQIL
-After the datasets are retrieved, they must be added to the folder: ‘data/example/codesearchnet’ and ‘data/example/staqc’. Subsequently, the path to this model should be adjusted in the ‘config.py’ file.
+The folder ‘model/CODEnn’ contains a modified version of the repository https://github.com/flyboss/CQIL. After the datasets are retrieved, they must be added to the folder: ‘data/example/codesearchnet’ and ‘data/example/staqc’. Subsequently, the path to this model should be adjusted in the ‘config.py’ file.
 
 ## Baseline models
 The folder 'models/baseline_models' contains the baseline models that use the TF-IDF weights and BM25 approach. For the BM25 approach, the Python library 'rank-bm25' (https://github.com/dorianbrown/rank_bm25).
