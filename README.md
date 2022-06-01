@@ -11,19 +11,19 @@ To train and test the models, this implementation uses two publicly available da
 - StaQC: https://github.com/LittleYUYU/StackOverflow-Question-Code-Dataset (Yoa et al. 2018)
 
 Since each model requires different formats for the datasets, the "preprocessing" folder contains the necessary scripts to convert the datasets mentioned above into the appropriate format.
-Make sure to add the folders with the original data source to the preprocessing folder. CodeSearchNet contains of a folder name ‘python’. For the StaQC dataset, add a folder to the preprocessing folder named ‘StaQC’ and place there the associated pickle files.
+Make sure to add the folders with the original data source to the preprocessing folder. CodeSearchNet contains a folder name ‘python’. For the StaQC dataset, add a folder to the preprocessing folder named ‘StaQC’ and place there the associated pickle files.
 
-Preprocessing_dcs and preprocessing_staqc contain the initial preprocessing to put the dataset into the required format for the CQIL and was also used for the preprocessing for CODEnn
+'preprocessing_dcs.py' and 'preprocessing_staqc.py' contain the initial preprocessing to put the dataset into the required format for the CQIL and was also used for the preprocessing for CODEnn.
 
 
 ## CODEnn
 The folder ‘model/CODEnn’ contains a modified version of the repository https://github.com/guxd/deep-code-search. 
-After the datasets are retrieved, they must be added to the folder: ‘data/example’
+After the datasets are retrieved, they must be added to the folder: ‘data/example’.
 
 
 
 ## CODE-NN
-The trained models on the StaQC can be found in the folder src/model/staqc and the one one the CodeSearchNet dataset in scr/model/csn. The model that is whished to be used, should be placed in the scr/model folder.
+The trained models on the StaQC can be found in the folder src/model/staqc and the one the CodeSearchNet dataset in scr/model/csn. The model that is wished to be used, should be placed in the scr/model folder.
 Note that this repository contains other requirements. In the thesis it is executed in Ubuntu. 
 This folder contains a modified version of the repository https://github.com/sriniiyer/codenn. 
 
@@ -32,8 +32,7 @@ After the datasets are retrieved, they must be added to the folder:
 -	and the associated ‘ref.txt’ and ‘dev.txt’ in data/stackoverflow/python/dev
 
 ## CQIL
-The folder ‘output/model’ contains two models: epo57598_finnal.h5 trained on StaQC data and epo161000_finnal.h5 on CodeSearchNet data.
-After the datasets are retrieved, they must be added to the folder: ‘data/example/codesearchnet’ and ‘data/example/staqc’. Subsequently, the path to this model should be adjusted in the ‘config.py’ file.
+The folder ‘model/CODEnn’ contains a modified version of the repository https://github.com/flyboss/CQIL. After the datasets are retrieved, they must be added to the folder: ‘data/example/codesearchnet’ and ‘data/example/staqc’. Subsequently, the path to this model should be adjusted in the ‘config.py’ file.
 
 ## Baseline models
 The folder 'models/baseline_models' contains the baseline models that use the TF-IDF weights and BM25 approach. For the BM25 approach, the Python library 'rank-bm25' (https://github.com/dorianbrown/rank_bm25).
