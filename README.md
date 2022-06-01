@@ -36,8 +36,8 @@ The folder ‘output/model’ contains two models: epo57598_finnal.h5 trained on
 After the datasets are retrieved, they must be added to the folder: ‘data/example/codesearchnet’ and ‘data/example/staqc’. Subsequently, the path to this model should be adjusted in the ‘config.py’ file.
 
 ## Reference
-Gu, X., Zhang, H., & Kim, S. (2018, May). Deep code search. In 2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE) (pp. 933-944). IEEE.
-Husain, H., Wu, H. H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). Codesearchnet challenge: Evaluating the state of semantic code search. arXiv preprint arXiv:1909.09436.
-Iyer, S., Konstas, I., Cheung, A., & Zettlemoyer, L. (2016, August). Summarizing source code using a neural attention model. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 2073-2083).
-Li, W., Qin, H., Yan, S., Shen, B., & Chen, Y. (2020, September). Learning code-query interaction for enhancing code searches. In 2020 IEEE International Conference on Software Maintenance and Evolution (ICSME) (pp. 115-126). IEEE.
-Yao, Z., Weld, D. S., Chen, W. P., & Sun, H. (2018, April). Staqc: A systematically mined question-code dataset from stack overflow. In Proceedings of the 2018 World Wide Web Conference (pp. 1693-1703).
+- Gu, X., Zhang, H., & Kim, S. (2018, May). Deep code search. In 2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE) (pp. 933-944). IEEE.
+- Husain, H., Wu, H. H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). Codesearchnet challenge: Evaluating the state of semantic code search. arXiv preprint arXiv:1909.09436.
+- Iyer, S., Konstas, I., Cheung, A., & Zettlemoyer, L. (2016, August). Summarizing source code using a neural attention model. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 2073-2083).
+- Li, W., Qin, H., Yan, S., Shen, B., & Chen, Y. (2020, September). Learning code-query interaction for enhancing code searches. In 2020 IEEE International Conference on Software Maintenance and Evolution (ICSME) (pp. 115-126). IEEE.
+- Yao, Z., Weld, D. S., Chen, W. P., & Sun, H. (2018, April). Staqc: A systematically mined question-code dataset from stack overflow. In Proceedings of the 2018 World Wide Web Conference (pp. 1693-1703).
