@@ -16,7 +16,7 @@ Make sure to add the folders with the original data source to the preprocessing 
 Preprocessing_dcs and preprocessing_staqc contain the initial preprocessing to put the dataset into the required format for the CQIL and was also used for the preprocessing for CODEnn
 
 
-## CODEnn implementation
+## CODEnn
 The folder ‘model/CODEnn’ contains a modified version of the repository https://github.com/guxd/deep-code-search. 
 After the datasets are retrieved, they must be added to the folder: ‘data/example’
 
