@@ -35,6 +35,9 @@ After the datasets are retrieved, they must be added to the folder:
 The folder ‘output/model’ contains two models: epo57598_finnal.h5 trained on StaQC data and epo161000_finnal.h5 on CodeSearchNet data.
 After the datasets are retrieved, they must be added to the folder: ‘data/example/codesearchnet’ and ‘data/example/staqc’. Subsequently, the path to this model should be adjusted in the ‘config.py’ file.
 
+## Baseline models
+The folder 'models/baseline_models' contains the baseline models that use the TF-IDF weights and BM25 approach. For the BM25 approach, the Python library 'rank-bm25' (https://github.com/dorianbrown/rank_bm25).
+
 ## Reference
 - Gu, X., Zhang, H., & Kim, S. (2018, May). Deep code search. In 2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE) (pp. 933-944). IEEE.
 - Husain, H., Wu, H. H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). Codesearchnet challenge: Evaluating the state of semantic code search. arXiv preprint arXiv:1909.09436.
