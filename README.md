@@ -1,6 +1,6 @@
 # TransferLearningCodeSearch
 
-This repository contains the implementation details and appendices of the thesis ‘Machine Learning for code search: a systematic review and industrial feasibility sutdy'. This repository uses three models (found in the 'models' folder) from existing literature. The source code from these three repositories have been adopted and slightly modified where necessary. The following papers and repositories are involved:
+This repository contains the implementation details and appendices of the thesis ‘Machine Learning for code search: a systematic review and industrial feasibility study'. This repository uses three models (found in the 'models' folder) from existing literature. The source code from these three repositories have been adopted and slightly modified where necessary. The following papers and repositories are involved:
 - model/CODEnn: https://github.com/guxd/deep-code-search (Gu et al. 2018);
 - model/codenn-master: https://github.com/sriniiyer/codenn (Iyer et al. 2016)
 - model/CQIL: https://github.com/flyboss/CQIL (Li et al. 2020).
